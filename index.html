@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA API Database</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a67e329b77.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="player__container">
+    <input class="search__box" type="text" placeholder="" onchange="onSearchChange(event)">
+    <a class="search__btn"  onchange="onSearchChange(event)">
+      <i class="fas fa-search"></i>
+    </a>
+    </div>
+    <div class="container">
+    <div class="row">
+      <div class="player-list">
+        <div class="player">
+          <div class="player-card">
+            <div class="player-card__container">
+                <h1>NBA Player Info</h1>
+                <p><b>First Name:</b> </p>
+                <p><b>Last Name:</b> </p>
+                <p><b>Position:</b> </p>
+                <p><b>Feet:</b> </p>
+                <p><b>Inches:</b> </p>
+                <p><b>City: </b></p>
+                <p><b>Conference: </b></p>
+                <p><b>Division: </b></p>
+                <p><b>Team Full Name: </b></p>
+                <p><b>Team Name: </b></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
